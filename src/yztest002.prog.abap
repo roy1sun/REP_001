@@ -9,6 +9,8 @@ REPORT YZTEST002.
 DATA gv_okcode TYPE sy-ucomm.
 DATA gv_saveok TYPE sy-ucomm.
 
+data lv_01 type char10. ""
+
 CALL SCREEN 100.
 
 MODULE status_0100 OUTPUT.
